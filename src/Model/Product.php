@@ -945,8 +945,8 @@ class Product
         return $this;
     }
 
-    /** @return StockProduct[] */
-    public function getStocks(): array
+    /** @return StockProduct[]|null */
+    public function getStocks(): ?array
     {
         return $this->stocks;
     }
